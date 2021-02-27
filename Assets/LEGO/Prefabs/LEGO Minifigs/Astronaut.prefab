@@ -1703,7 +1703,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onlyActiveGameObject: 0
   hideChildren: 1
-  hideSelf: 0
 --- !u!1 &1995924964877938779
 GameObject:
   m_ObjectHideFlags: 0
