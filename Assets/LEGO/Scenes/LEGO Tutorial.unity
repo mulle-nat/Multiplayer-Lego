@@ -413,6 +413,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 860004465909963345, guid: 68ea2f971bec30347ad00bc8f4e78891,
+        type: 3}
+      propertyPath: m_text
+      value: Einstellungen
+      objectReference: {fileID: 0}
     - target: {fileID: 7679546216027539728, guid: 68ea2f971bec30347ad00bc8f4e78891,
         type: 3}
       propertyPath: m_RootOrder
@@ -30620,6 +30625,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1880119165135675669, guid: 86685caf5e2e2624090d70b416c7c171,
+        type: 3}
+      propertyPath: m_text
+      value: Steuerung
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686699392967809465, guid: 86685caf5e2e2624090d70b416c7c171,
+        type: 3}
+      propertyPath: m_text
+      value: Fertig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439603457820794629, guid: 86685caf5e2e2624090d70b416c7c171,
+        type: 3}
+      propertyPath: m_text
+      value: Tastatur
+      objectReference: {fileID: 0}
     - target: {fileID: 8824232397177945068, guid: 86685caf5e2e2624090d70b416c7c171,
         type: 3}
       propertyPath: m_RootOrder
