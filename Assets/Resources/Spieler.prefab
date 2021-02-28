@@ -5933,19 +5933,19 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2724033803552418843}
-  - component: {fileID: 319327366600897152}
+  - component: {fileID: -421536022137919189}
   - component: {fileID: 430386958116825912}
   - component: {fileID: 958709260545191269}
   - component: {fileID: 8668740104181789544}
   - component: {fileID: 7126011396813562848}
   - component: {fileID: 2325295851304386642}
   - component: {fileID: 8754947464832255161}
-  - component: {fileID: 7793263089631827003}
   - component: {fileID: 6143342280952275484}
   - component: {fileID: 2334345697096466928}
   - component: {fileID: 8302120365530635908}
   - component: {fileID: 8037293846061011499}
   - component: {fileID: 2479783022194300466}
+  - component: {fileID: 7793263089631827003}
   - component: {fileID: 1439696987578870678}
   - component: {fileID: 2681398947459411095}
   - component: {fileID: -3088959964699737998}
@@ -5972,7 +5972,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &319327366600897152
+--- !u!114 &-421536022137919189
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5981,7 +5981,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8990613501074514208}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 652629fecff6a4c8fa0a985e628de942, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b3b066ee2c2a2d7b8d5e3fbe7b45161, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxForwardSpeed: 12
@@ -5991,11 +5991,7 @@ MonoBehaviour:
   rotateAcceleration: 500
   jumpSpeed: 20
   gravity: 40
-  stepAudioClips:
-  - {fileID: 8300000, guid: 39948ec2175e749819ecd850a1d0e5af, type: 3}
-  - {fileID: 8300000, guid: 97adc7a6316eb42039437d84c81b25c9, type: 3}
-  - {fileID: 8300000, guid: 325a89399f940412abe873057ca26add, type: 3}
-  - {fileID: 8300000, guid: 2a988a8f5a6ac4c5a9084b2a952daa59, type: 3}
+  stepAudioClips: []
   jumpAudioClip: {fileID: 8300000, guid: 542490ca55814441981ef88f5d1f2dc6, type: 3}
   doubleJumpAudioClip: {fileID: 8300000, guid: 542490ca55814441981ef88f5d1f2dc6, type: 3}
   landAudioClip: {fileID: 8300000, guid: a12caccc734354aa09f7d2a412925ac2, type: 3}
@@ -6003,11 +5999,11 @@ MonoBehaviour:
   inputType: 1
   inputEnabled: 1
   maxJumpsInAir: 1
-  leftArmTip: {fileID: 6154555870815438827}
-  rightArmTip: {fileID: 848597260051162174}
-  leftLegTip: {fileID: 9056751665851132610}
-  rightLegTip: {fileID: 3530459321180746577}
-  head: {fileID: 5733750275167624456}
+  leftArmTip: {fileID: 0}
+  rightArmTip: {fileID: 0}
+  leftLegTip: {fileID: 0}
+  rightLegTip: {fileID: 0}
+  head: {fileID: 0}
 --- !u!95 &430386958116825912
 Animator:
   serializedVersion: 3
@@ -6207,18 +6203,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a531e05301d84432885d06beab7c5aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7793263089631827003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8990613501074514208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64cdf5b8403534b7cad3e882ef1d1e30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &6143342280952275484
 MonoBehaviour:
   m_ObjectHideFlags: 10
@@ -6300,6 +6284,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e61355f62eba4e7d9ac7f403329143b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7793263089631827003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990613501074514208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cdf5b8403534b7cad3e882ef1d1e30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1439696987578870678
